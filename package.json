@@ -1,0 +1,19 @@
+{
+  "name": "cubebedwars-mobile",
+  "version": "1.0.0",
+  "description": "CubeBedwars Mobile Edition for Android and iOS — 3D Voxel Bedwars with Touch Controls",
+  "scripts": {
+    "sync": "cap sync",
+    "android": "cap open android",
+    "ios": "cap open ios",
+    "build:apk": "cap sync android && cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/core": "^6.1.2",
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/ios": "^6.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2"
+  }
+}
